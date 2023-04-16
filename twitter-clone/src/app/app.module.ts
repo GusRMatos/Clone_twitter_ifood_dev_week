@@ -10,6 +10,7 @@ import { TweetComponent } from './components/tweet/tweet.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { GuideComponent } from './components/guide/guide.component';
+import { RecommendationComponent } from './components/recommendation/recommendation.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GuideComponent } from './components/guide/guide.component';
     TweetComponent,
     HomeComponent,
     TimelineComponent,
-    GuideComponent
+    GuideComponent,
+    RecommendationComponent
   ],
   imports: [
     BrowserModule,
