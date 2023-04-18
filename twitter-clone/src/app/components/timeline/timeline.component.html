@@ -1,5 +1,12 @@
 <div class="max-h-screen bg-black  border-x-gray-600
     flex-col h-screen justify-center items-start border-x">
-    <app-guide></app-guide>
-    <app-post></app-post>    
+    <div>
+        <app-guide></app-guide>
+    </div>
+    <div>
+        <app-post></app-post>
+    </div>
+    <div *ngFor=" let tM of tweets">
+        <app-tweet [tweetMessage]=tM></app-tweet>  
+    </div>
 </div>    
